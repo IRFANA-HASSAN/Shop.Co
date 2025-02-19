@@ -178,7 +178,7 @@ nav select {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 64px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 64px;
     text-align: left;
     text-decoration-skip-ink: none;
@@ -265,6 +265,7 @@ nav select {
 /* Section Heading */
 .new-arrivals h2 {
     font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     line-height: 57.6px;
     text-align: center;
@@ -694,13 +695,13 @@ nav select {
     color: #000;
 }
 .icons{
-    margin-top: 28px;
 }
 .icons a:hover{
     background: #000;
 }
 .footer-section h2 {
     font-size: 2rem;
+    font-weight: 200;
     margin-bottom: 15px;
     color: #000;
 }
@@ -773,9 +774,6 @@ nav select {
     .footer-section h3 {
         font-size: 2rem;
     }
-    .footer-section h2{
-        font-size: 1.6rem;
-    }
 }
 @media (max-width: 1700px){
     .container {
@@ -803,9 +801,6 @@ nav select {
     .footer-section p,.footer-section ul{
         font-size: 14px;
     }
-    .footer-section h2{
-        font-size: 1rem;
-    }
 }
 @media (max-width: 1540px){
     .icons form{
@@ -825,7 +820,7 @@ nav select {
 }
 @media (max-width: 1440px){
     .icons form{
-        width: 700px;
+        width: 650px;
     }
 }
 @media (max-width: 1340px){
